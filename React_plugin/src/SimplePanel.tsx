@@ -2,11 +2,12 @@ import React, { PureComponent } from "react";
 import { PanelProps } from "@grafana/data";
 import { SimpleOptions } from "types";
 import axios from "axios";
-import "./table.css";
+import "./table.scss";
+import { ButtonProps } from "@grafana/ui";
 
 interface Props extends PanelProps<SimpleOptions> {}
-
-export class SimplePanel extends PureComponent<Props> {
+interface Propss extends ButtonProps {}
+export class SimplePanel extends PureComponent<Props, Propss> {
   render() {
     var state = {
       isToggleOn: true
@@ -23,16 +24,17 @@ export class SimplePanel extends PureComponent<Props> {
       }
     };
     return (
+
       <div className="container">
         <div className="row">
           <div className="col-12">
             <table className="table table-bordered">
               <thead>
                 <tr>
-                  <th scope="col">Day</th>
-                  <th scope="col">Article</th>
+                  <th scope="col">nodes</th>
+                  <th scope="col">name</th>
                   <th scope="col">Author</th>
-                  <th scope="col">Shares</th>
+                  <th scope="col">ping</th>
                   <th scope="col">Actions</th>
                 </tr>
               </thead>

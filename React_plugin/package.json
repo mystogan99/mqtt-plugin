@@ -1,18 +1,18 @@
 {
-  "name": "simple-react-panel",
+  "name": "mqtt-panel",
   "version": "1.0.0",
-  "description": "Simple React Panel",
+  "description": "Send data over to flask server and vice-versa",
   "scripts": {
     "build": "grafana-toolkit plugin:build",
     "test": "grafana-toolkit plugin:test",
     "dev": "grafana-toolkit plugin:dev",
     "watch": "grafana-toolkit plugin:dev --watch"
   },
-  "repository": "github:grafana/simple-react-panel",
-  "author": "Grafana Labs <team@grafana.com> (https://grafana.com)",
+  "repository": "github:hrithik098/Grafana-mqtt-plugin",
+  "author": "Podnet Labs <info@thepodnet.com> (https://thepodnet.com)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/grafana/simple-react-panel/issues",
+    "url": "https://github.com/hrithik098/Grafana-mqtt-plugin/issues",
     "email": "plugins@grafana.com"
   },
   "devDependencies": {
