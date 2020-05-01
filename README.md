@@ -24,8 +24,7 @@ foo@bar:~$ cd /var/lib/grafana/plugins/
 - git clone repo
 
 ```
-foo@bar:~$ cd Grafana-mqtt-plugin
-foo@bar:~$ cd react_plugin
+foo@bar:~$ cd Grafana-mqtt-plugin/React_plugin
 foo@bar:~$ sudo yarn install
 foo@bar:~$ sudo yarn build
 foo@bar:~$ sudo systemctl restart grafana-server.service
