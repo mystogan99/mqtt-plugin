@@ -12,6 +12,7 @@ foo@bar:~$ cd flask_server
 ```
 ```
 foo@bar:~$ python main.py
+```
 
 ## Install
 
