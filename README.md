@@ -1,4 +1,6 @@
 # Grafana-mqtt-plugin
+Send data over to flask server then to mqtt broker and vice-versa.
+
 ## Setup
 - Activate Virtual Environment
 ```
