@@ -17,24 +17,17 @@ foo@bar:~$ python main.py
 ## Install
 
 - Install requirements by typing this:
+
 ```
 foo@bar:~$ cd /var/lib/grafana/plugins/
 ```
+- git clone repo
+
 ```
-foo@bar:~$ git clone repo
-```
-```
+foo@bar:~$ cd Grafana-mqtt-plugin
+foo@bar:~$ cd react_plugin
 foo@bar:~$ sudo yarn install
-```
-```
 foo@bar:~$ sudo yarn build
-```
-```
 foo@bar:~$ sudo systemctl restart grafana-server.service
 ```
-```
-foo@bar:~$ cd flask_server
-```
-```
-foo@bar:~$ python main.py
-```
+- Go to http://localhost:3000
