@@ -1,6 +1,8 @@
 # Grafana-mqtt-plugin
 Send data over to flask server then to mqtt broker and vice-versa.
 
+- git clone repo
+
 ## Setup
 - Activate Virtual Environment
 ```
@@ -21,7 +23,7 @@ foo@bar:~$ python main.py
 ```
 foo@bar:~$ cd /var/lib/grafana/plugins/
 ```
-- git clone repo
+
 
 ```
 foo@bar:~$ cd Grafana-mqtt-plugin/React_plugin
