@@ -24,7 +24,7 @@ foo@bar:~$ python main.py
 
 ```
 foo@bar:~$ cd Grafana-mqtt-plugin/React_plugin
-foo@bar:~$ sudo yarn install
+foo@bar:~$ sudo yarn install / sudo npm install
 foo@bar:~$ sudo yarn build
 foo@bar:~$ sudo systemctl restart grafana-server.service
 ```
