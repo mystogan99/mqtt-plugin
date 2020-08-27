@@ -2,22 +2,7 @@
 Send data over to flask server then to mqtt broker and vice-versa.
 
 ## Setup
-- Install requirements by typing this:
-
-```console
-foo@bar:~$ cd /var/lib/grafana/plugins/
-```
-- git clone repo
-- Activate Virtual Environment
-```console
-foo@bar:~$ sudo source ./flask_server/flask/bin/activate
-```
-- Start the server
-```console
-foo@bar:~$ cd flask_server
-```
-```console
-foo@bar:~$ python main.py
+- Run flask server to send all commands directly to flask.
 ```
 
 ## Install
