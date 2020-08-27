@@ -1,5 +1,5 @@
-# Grafana-mqtt-plugin
-Send data over to flask server then to mqtt broker and vice-versa.
+# mqtt-plugin
+A plugin for Grafana to send data over to flask server then to mqtt broker and vice-versa.
 
 ## Setup
 - Run flask server to send all commands directly to flask.
