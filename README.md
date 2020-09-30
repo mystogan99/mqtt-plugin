@@ -14,7 +14,7 @@ foo@bar:~$ cd Grafana-mqtt-plugin/React_plugin
 foo@bar:~$ sudo yarn install / sudo npm install
 ```
 ```console
-foo@bar:~$ sudo yarn build / sudo npm build
+foo@bar:~$ sudo yarn build / sudo npm run build
  ```
 ```console
 foo@bar:~$ sudo systemctl restart grafana-server.service
