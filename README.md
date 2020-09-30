@@ -1,5 +1,6 @@
 # mqtt-plugin
 A plugin for Grafana to send data over to flask server then to mqtt broker and vice-versa.
+The react plugin hits the flask server(http request with AXIOS) with state of the device and the server sends the data to mqtt broker. Using flask server is optional you can specify any end point to send the data.
 
 ## Setup
 - Run flask server to send all commands directly to flask.
