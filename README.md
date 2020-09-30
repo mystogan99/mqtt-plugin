@@ -3,7 +3,7 @@ A plugin for Grafana to send data over to flask server then to mqtt broker and v
 
 ## Setup
 - Run flask server to send all commands directly to flask.
-```
+
 
 ## Install
 
@@ -15,7 +15,7 @@ foo@bar:~$ sudo yarn install / sudo npm install
 ```
 ```console
 foo@bar:~$ sudo yarn build / sudo npm build
- ``
+ ```
 ```console
 foo@bar:~$ sudo systemctl restart grafana-server.service
 ```
